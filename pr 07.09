@@ -1,0 +1,27 @@
+#include <iostream>
+#include <stdlib.h>
+#include <time.h>
+
+using namespace std;
+
+int suma = 0;
+
+int main()
+{
+srand (time (NULL));
+
+    for (int i = 0; i < 100; i++) {
+        
+        int x = rand() % 100 + 1;
+        
+        cout << x << endl;
+        
+        suma = suma + x;
+        slp = 
+  }
+
+    cout << "suma liczb:"<<  suma << endl;
+    cout << "suma liczb parzystych:"<< slp << endl;
+    
+    return 0;
+}
